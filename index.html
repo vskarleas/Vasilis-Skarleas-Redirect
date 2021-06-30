@@ -73,9 +73,9 @@ twq('init','o573i');
 twq('track','PageView');
 </script>
 <!-- End Twitter universal website tag code -->
-  <link href=
-  "/style.css"
-  rel="stylesheet" type="text/css">
+<script type="module" src="https://googlechromelabs.github.io/dark-mode-toggle/src/dark-mode-toggle.mjs"></script>
+<link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
   <script src=
   "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
   type="text/javascript"></script>
@@ -114,6 +114,14 @@ twq('track','PageView');
     </script>
 </head>
 <body>
+  <aside>
+    <dark-mode-toggle
+        id="dark-mode-toggle-1"
+        
+        dark="Light"
+        light="Dark"
+    ></dark-mode-toggle>
+  </aside>
     <div class="background-scene">
       <div style="width:0PX" class="horizontal-line _10-percent">
       </div>
